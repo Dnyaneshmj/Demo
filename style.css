@@ -1,0 +1,348 @@
+body{
+	
+	font-family: 'Roboto Slab', serif;
+}
+html{
+  width: 100%;
+}
+.navbar {
+
+	font-size: 18px;
+	padding: 8px;
+	background-color: white;
+	width: 100%;
+	margin: 0px;
+border: none;
+}
+.navbar-header{
+  margin-left: 6%;
+}
+#menu1{
+margin-right: 10%;
+}
+
+#mbtn{
+  display: none;
+}
+#mySidenav{
+  display: none;
+}
+#logo1{
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.hdrtxt{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  -ms-transform: translate(-40%, -40%);
+  transform: translate(-40%, -40%);
+}
+.hdrtxt  h2{
+  color: white; 
+  font-size:3vw; 
+  margin: 0;
+  padding: 0;  
+}
+.hdrtxt h4{
+  color: white; 
+  font-size:2vw; 
+}
+.h4txt{
+  padding-top:3%;
+}
+#imgtx h4{
+padding:1.6vw;
+}
+#hdrimg{
+  width: auto;
+  height: 23vw;
+}
+a{
+	text-decoration: none;
+color: black;
+}
+h2{
+	padding: 20px;
+	color: black;
+	font-size:3vw;
+	font-weight: 900;
+	line-height: 1.2em;
+  font-family: 'Roboto Slab', serif;
+	
+}
+h3{
+	color:black; 
+}
+h4{
+
+	    opacity: 0.7;
+	color:black;
+	font-size: 20px;
+	    font-weight: 300;
+}
+#hdr1{
+  padding: 20px;
+}
+#hdr1 h2{
+  padding: 0px;
+}
+
+
+.outer-box{
+	margin-bottom: 40px;
+
+}
+.inner-box{
+
+      position: relative;
+    box-shadow: 0px 0px 10px #E0E0E0;
+	height:200px;
+    padding: 20px 35px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+.inner-box > h3 > a:hover{
+	text-decoration: none;
+	color: #ffae11;
+
+}
+
+#detls2{
+	background-image: url(http://sdcomputech.com/wp-content/themes/cobiz/images/background/1.png) repeat;
+}
+.btn-serv{
+	margin-top: 30px;
+	float: right;
+	font-size: 18px;
+	border:2px solid black;
+	padding: 10px;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.btn-serv:hover
+{
+text-decoration: none;
+background-color: #003366;
+color: white;
+}
+
+.icon-box{
+  float: left;
+	width: 10%;
+    color: #6184d5;
+    font-size: 36px;
+    line-height: 1em;
+    display: inline-flex; 
+    top:0;
+}
+.ibtxt{
+  width: 80%;
+  float: right;
+}
+.ibtxt h3{
+  margin-top: 0px;
+}
+
+.services-block > a:hover {
+	text-decoration: none;
+}
+
+.services-block > a:hover .inner-box{
+	background-color: #003366;
+}
+.services-block > a:hover h3{
+	color: white;
+}
+.project-block > img{
+height: 325px;
+width: 100%;
+}
+.project-block{
+
+}
+.text{
+text-align: center;
+color: white;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   width: 50%;
+   height: 50%;
+   border: 1px solid white;
+	
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay
+{
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity:0;
+  transition: .5s ease;
+  background: #00264d;
+}
+
+.text > a{
+	color: white;
+	text-decoration: none;
+}
+
+.project-block:hover .overlay{
+	opacity: 0.9;
+
+}
+.contact{
+	background-image: url(http://sdcomputech.com/wp-content/uploads/2017/04/opacity.png?id=1212);
+	width: 100%;
+}
+
+.requestmsg{
+	background-color: white;
+	padding: 0px;
+}
+.requestmsg > col-md-6
+   {
+width: 201px;
+height: 72px;
+}
+.request{
+	margin-left: 20%; 
+	width: 70%;
+	height: 70%;
+}
+.social-icon{
+	position: relative;
+	list-style: none;
+padding: 0px;
+margin: 0px;
+}
+
+.social-icon li a{
+	width: 42px;
+    height: 42px;
+    background: #747b7b;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 100% !Important;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+}
+
+.social-icon li a:hover{
+  text-decoration: none;
+  background-color: blue;
+ 
+ }
+
+.footer-menu{
+	margin: 5px;
+	font-size: 18px;
+}
+.footer-menu li a{
+	margin: 10px;
+}
+.footer-menu li a:hover{
+text-decoration: none;
+color: black;
+}
+
+.footer-menu-part{
+	margin: 5px;
+	font-size: 15px;
+}
+.footer-menu-part li a{
+	margin: 10px;
+}
+.footer-menu-part li a:hover{
+text-decoration: none;
+color: black;
+}
+
+.techno-work{
+	box-shadow: 0px 0px 12px #E0E0E0;
+	margin: 10px;
+	width: 255px;
+	height: 110px;
+}
+textarea{
+	display: block;
+	width: 100%;
+	line-height: 28px;
+	height: 146px;
+}
+
+.closebtn{
+	display: none;
+}
+
+
+@media screen and (max-width: 1024px){
+     
+      
+      #menu1{
+        display: none;
+      }
+      #mySidenav{
+        display: block;
+      }
+      
+      .sidenav {
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #f2f2f2;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      } 
+      .sidenav a {
+   padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border-bottom: 1px solid black;
+    }
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 24px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+     }
+#mbtn{
+  display:inline;
+  margin: 10px;
+    }
+#logo1{
+  text-align: center;
+}
+    }
+  
